@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+             max-width:100vw; 
+            /* max-height: 100vh; */
+            background-color:rgba(128, 128, 128, 0.357);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+        }
+        .boxes{
+            display: grid;
+            grid-template-columns: 250px 250px 250px ;
+            grid-template-rows: 250px 250px 250px ;
+            gap: 2px;
+            background-color: #ffff;
+            border-radius: 10px;
+           
+            
+            
+        .box{
+            margin:2px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        } 
+        .box1{
+             background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmuWRJkxkKqN_O8YNCkmH8GLhUYjq6n7qoNg&s);
+             background-size: cover;
+            grid-area: 1/1/2/2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+           }
+           .box2{
+            background-image: url(image2.png);
+             background-size: cover;
+            grid-area:1/2/2/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+           }
+           .box3{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0FFCht8DYDkM4-6_Bda4TiF9_BN51yaEqeQ&s);
+            background-size: cover;
+            grid-area: 1/3/2/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+           }
+           .box4{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFWbfaL0BbWPHIuzugpqigSstmbfITSKzWg&s);
+            background-size: cover;
+            grid-area: 2/1/3/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+               
+           }
+           .box5{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT80Solcg4BV3eDErcOvLZl82grQChOA8Yh0A&s);
+            background-size: cover;
+           
+            grid-area:2/3/3/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+           }
+           .box6{
+            
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI3-oEtGsebYMwdzVRDiDM68NSN-PoZw5ycA&s);
+            background-size: cover;
+            grid-area: 3/1/4/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+           }
+
+           
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes">
+        <div class="box box1"><h1></h1></div>
+        <div class="box box2"><h1></h1></div>
+        <div class="box box3"><h1></h1></div>
+        <div class="box box4"><h1></h1></div>
+        <div class="box box5"><h1></h1></div>
+        <div class="box box6"><h1></h1></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
